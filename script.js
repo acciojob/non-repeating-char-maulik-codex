@@ -15,3 +15,8 @@ function firstNonRepeatedChar(str) {
 
     return null; // No non-repeated character found
 }
+console.log(firstNonRepeatedChar('aabbcdd')); // 'c'
+console.log(firstNonRepeatedChar('aabbcc'));  // null
+console.log(firstNonRepeatedChar('xxyz'));    // 'y'
+console.log(firstNonRepeatedChar(''));        // null
+
